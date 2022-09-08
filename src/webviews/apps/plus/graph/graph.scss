@@ -372,6 +372,20 @@ a {
 		content: '\ebb3';
 	}
 }
+.icon--hide {
+	&::before {
+		// codicon-eye-closed
+		font-family: codicon;
+		content: '\eae7';
+	}
+}
+.icon--show {
+	&::before {
+		// codicon-eye
+		font-family: codicon;
+		content: '\ea70';
+	}
+}
 
 .graph-app {
 	--fs-2: 1.3rem;
